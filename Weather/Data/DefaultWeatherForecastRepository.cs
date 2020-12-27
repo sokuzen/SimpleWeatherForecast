@@ -6,11 +6,11 @@ using Weather.Models;
 
 namespace Weather.Data
 {
-    public class HardCodedWeatherForecastRepository : IWeatherForecastRepository
+    public class DefaultWeatherForecastRepository : IWeatherForecastRepository
     {
-        private readonly HardCodedWeatherForecastDataContext _dataContext;
+        private readonly DefaultWeatherForecastDataContext _dataContext;
 
-        public HardCodedWeatherForecastRepository(HardCodedWeatherForecastDataContext dataContext)
+        public DefaultWeatherForecastRepository(DefaultWeatherForecastDataContext dataContext)
         {
             _dataContext = dataContext;
         }

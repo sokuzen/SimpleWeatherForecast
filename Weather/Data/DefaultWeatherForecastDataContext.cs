@@ -6,7 +6,7 @@ using Weather.Models;
 
 namespace Weather.Data
 {
-    public class HardCodedWeatherForecastDataContext
+    public class DefaultWeatherForecastDataContext
     {
         private IQueryable<WeatherForecast> _forecasts;
 
